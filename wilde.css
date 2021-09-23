@@ -1,0 +1,111 @@
+p {
+    font-size:14;
+    color:black;
+    font: "font: 15px Arial, sans-serif;"
+}
+
+.speech {
+    font: "font: 15px Arial, sans-serif;"
+}
+
+.stage-direction{
+    background-color: grey;
+}
+
+.stage-direction:hover{
+    background-color:lightgreen;
+    color:orange;
+}
+
+.MARQ
+{
+    color: lightsalmon;
+}
+
+table,td,th
+{ 
+    border: solid 1px ;
+    text-align: center;
+    width: 30%;
+    color: black;
+    padding: 10px;
+    margin: 20px;
+}
+
+tr:nth-child(even) {
+    background-color:#ccc;
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+    
+  .navbar-vertical a:hover{
+    background-color: #555;color:orange;
+  }
+
+
+.ico:before{
+    content: '';
+    background:url('speakingicon.png');
+    background-size:cover;
+        position:absolute;
+    width:20px;
+    height:20px;
+    margin-left:-20px;
+}
+
+.icon:before{
+    content: '';
+    background:url('smily.jpg');
+    background-size:cover;
+    position:absolute;
+    background-color: lightgreen;
+    width:30px;
+    height:20px;
+    margin-left:-10px;
+}
+
+.iconnew:before{
+    content: '';
+    background:url('smily.jpg');
+    background-size:cover;
+    position:absolute;
+    width:25px;
+    height:20px;
+    margin-left:-29px;
+}
+
+.angryicon:before{
+    content: '';
+    background:url('angryicon.jpg');
+    background-size:cover;
+    position:absolute;
+    width:20px;
+    height:20px;
+    margin-left:-5px;
+}
+    #content {
+        position: relative;
+    }
+    #content img {
+        position: absolute;
+        top: 170px;
+        right: 30px;
+        height: 415px;
+        width: 350px;
+    }
