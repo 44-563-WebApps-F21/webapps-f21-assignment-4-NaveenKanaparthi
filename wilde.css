@@ -79,3 +79,27 @@ h5.Count:hover{
     border:green;
     filter: blur(3px);
 }
+#content{
+    position:relative;
+
+}
+#content img{
+    position:absolute;
+    top: 200px;
+    right: 25px;
+    height: 350px;
+    width: 350px;
+}
+ul.navbar-vertical a:hover{
+    background-color: #555;color:red;
+  }
+
+.ico:before{
+    content: '';
+    background:url('b2.jpg');
+    background-size:cover;
+        position:absolute;
+    width:20px;
+    height:20px;
+    margin:20px;
+}
