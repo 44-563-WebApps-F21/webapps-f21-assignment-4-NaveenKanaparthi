@@ -22,6 +22,32 @@ p {
     color: lightsalmon;
 }
 
+.Count
+{
+    color: lime;
+
+}
+
+.Petro
+{
+    color: maroon;
+}
+
+.Raff
+{
+    color: mediumvioletred;
+}
+
+.Kotemk
+{
+    color: navy;
+}
+
+.Gen
+{
+    color: purple;
+}
+
 table,td,th
 { 
     border: solid 1px ;
